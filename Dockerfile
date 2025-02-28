@@ -1,4 +1,4 @@
 FROM nginx:alpine
 COPY . /usr/share/nginx/html
-echo "Powered by Kaniko" >> /usr/share/nginx/html/index.html
+RUN echo "Powered by Kaniko" >> /usr/share/nginx/html/index.html
 
